@@ -93,4 +93,17 @@
 
 // //By destructuring
 
+const person1={
+    name1:'Jhon',
+    age1:'20',
+    email1:null
+};
+const {name1:Another_name,age1:Another_age,email1:Another_email="Addd@gmail.com"}=person1;
+//Now here let us check whether the given element has value or not if not that means values need to be added
+const final_email=Another_email === undefined || Another_email === null? "abbb@gmail.com" : Another_email;
+//The reason to check this is because it have setted the default name but when it should appear that also needs to be setted
+console.log(Another_name);
+console.log(Another_age);
+console.log(final_email);
+
 
