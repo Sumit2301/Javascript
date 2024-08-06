@@ -1,0 +1,6 @@
+This is Another Masters's file
+
+Now adding some random thnings again
+This is again edited
+
+Now going to apply stash in the Another_Master and then will commit it but first just staged it and add it
