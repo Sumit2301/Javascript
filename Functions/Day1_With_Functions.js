@@ -62,3 +62,29 @@ how lets do one program to understand
     console.log(result);              // Print the result (80)
 
 // And remmeber one thing taht after return it wont print any operation
+
+
+//As we cant directly print the return keyword
+function understanding_return(std_name){
+    return `${std_name} is Myname`;
+}
+//as it wont print because it havent given any console or printing statement
+console.log(understanding_return("Rahul"));
+
+
+//if value dont passed in the code that doesnt means to empty string that means to no value passed
+function addtwonumbers(number1)
+{
+    if(number1===undefined || number1===null || number1===NaN)
+    {
+        console.log("Enter valid number please");
+        //We cant give return here because if we give herethe below return will never work
+    }
+    else{
+        return `${number1} is value`;
+
+    }
+}
+console.log(addtwonumbers());//output is undefined is value
+//Now how to resolve this 
+console.log(addtwonumbers(10));
