@@ -88,3 +88,4 @@ function addtwonumbers(number1)
 console.log(addtwonumbers());//output is undefined is value
 //Now how to resolve this 
 console.log(addtwonumbers(10));
+//So here the conditions says all that if it is NUMBER THEN ONLY it will allow
